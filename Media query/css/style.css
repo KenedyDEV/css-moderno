@@ -1,0 +1,36 @@
+.img-content{
+  width: 765px;
+  height: 400px;
+}
+.text-content{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 795px){
+  .img-content{
+    width: 600px;
+    height: 313;
+  }
+  .text-content{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 510px){
+  .img-content{
+    width: 100%;
+    height: auto;
+  }
+  .text-content{
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 420px){
+  .text-content{
+    text-align: center;
+    font-size: 8px;
+  }
+}
